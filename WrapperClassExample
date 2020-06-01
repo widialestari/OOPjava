@@ -1,0 +1,16 @@
+public class WrapperClass{
+    public static void main(String args[]){
+        //Wrapper class object 
+	Integer iobj = new Integer(100);
+        Character cobj = new Character('H');
+		
+	//konfersi wrapper object menjadi primitive (Unboxing)
+	int iprim = iobj.intValue();
+        char cprim = cobj.charValue();
+
+	System.out.println("int : "+ iprim);
+        System.out.println("char : "+ cprim);
+        System.out.println("Integer : "+iobj);
+        System.out.println("Character : "+cobj);
+    }
+}
